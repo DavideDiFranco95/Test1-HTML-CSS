@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Luminari;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Impedisce che il footer si sovrapponga al contenuto */
+}
+
+.contenitore {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colonna {
+    flex: 1;
+}
+
+.titolo {
+    font-family: 'Luminari', sans-serif;                     
+    color: rgb(31, 24, 24);
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-right: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(42, 13, 145);
+}
+
+.h1-nav {
+    background-color: rgba(103, 114, 114, 0.685);
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: rgb(8, 8, 8);
+    color: rgba(144, 151, 39, 0.562);
+    padding: 24px;
+    margin-top: auto; /* Fissa il footer al fondo della pagina */
+    width: 100%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.button {
+    margin-top: 24px;
+}
+
+/* Stili specifici per le colonne laterali */
+.colonna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Ulteriori stili specifici per le colonne laterali (destra e sinistra) */
+.colonna-destra {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.colonna-sinistra {
+    justify-content: flex-end;
+    align-items: flex-start;
+}
